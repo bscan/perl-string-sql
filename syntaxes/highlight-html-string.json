@@ -1,8 +1,5 @@
 {
-  "fileTypes": [
-    "py"
-  ],
-  "injectionSelector": "L:string.quoted.multi.python, L:meta.fstring.python - (comment.line.number-sign.python, punctuation.definition.comment.python)",
+  "injectionSelector":  "L:source - (meta.embedded), L:text - (mate.embedded)",
   "repository": {
     "keep-variables": {
       "patterns": [
@@ -11,7 +8,7 @@
           "end": "\\}",
           "beginCaptures": {
             "1": {
-              "name": "punctuation.section.embedded.begin.py"
+              "name": "punctuation.section.embedded.begin.pl"
             },
             "2": {
               "name": "punctuation.section.embedded"
@@ -19,7 +16,7 @@
           },
           "endCaptures": {
             "1": {
-              "name": "punctuation.section.embedded.end.py"
+              "name": "punctuation.section.embedded.end.pl"
             },
             "2": {
               "name": "punctuation.section.embedded"
@@ -53,5 +50,5 @@
       ]
     }
   ],
-  "scopeName": "python-html.injection"
+  "scopeName": "perl-html.injection"
 }

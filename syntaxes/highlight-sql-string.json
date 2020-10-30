@@ -1,8 +1,5 @@
 {
-  "fileTypes": [
-    "py"
-  ],
-  "injectionSelector": "L:string.quoted.multi.python, L:meta.fstring.python - (comment.line.number-sign.python, punctuation.definition.comment.python)",
+  "injectionSelector": "L:source - (meta.embedded), L:text - (mate.embedded)",
   "patterns": [
     {
       "begin": "( *--sql| *--beginsql| *--begin-sql)",
@@ -19,5 +16,5 @@
       ]
     }
   ],
-  "scopeName": "python-sql.injection"
+  "scopeName": "perl-sql.injection"
 }
