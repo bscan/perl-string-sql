@@ -2,6 +2,8 @@
 
 Adds syntax highlight support for Perl SQL strings in VS Code. This repo is a clone from https://github.com/ptweir/python-string-sql
 
+This extension is also available on the marketplace at https://marketplace.visualstudio.com/items?itemName=bscan.perl-string-sql
+
 ## Example
 
 ![Example](docs/perl_demo.png)
